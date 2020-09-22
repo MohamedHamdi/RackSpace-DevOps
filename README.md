@@ -31,3 +31,4 @@ terraform plan
 terraform apply 
 ```
 
+In Order to use Route53 as your DNS service After Route53 is up and Running you will have to update Name Servers inside domain from NS Record inside hosted zone you have and update 
