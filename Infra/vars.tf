@@ -4,9 +4,6 @@ variable "aws_access_key" {
 variable "aws_secret_key" {
     default = "cGlc2xwNjxtyW3VrDkEW/Dsa6Uzi6jx5iz28Lav5"
 }
-variable "aws_key_path" {
-    default = "Infra-2/ec2accesskey.pem"
-}
 variable "aws_key_name" {
     default = "ec2accesskey"
 }
