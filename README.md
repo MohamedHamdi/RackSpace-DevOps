@@ -5,6 +5,10 @@ We are using Terraform and Packer in below example
 ```
 https://www.terraform.io/
 https://www.packer.io/
+
+# don't forget to change values inside vars.tf if you want or leave it and use my account 
+# don't forget to change accessKey and secretKey inside s3 and iam 
+
 ```
 cd s3
 ```
@@ -24,7 +28,7 @@ cd Packer
 packer build packer.json # use ami values inside vars.tf
 ```
 
-cd Infra # set values inside vars.tf 
+cd Infra 
 ```
 terraform init
 terraform plan
