@@ -5,7 +5,7 @@ resource "aws_route53_zone" "zone-1" {
 
 resource "aws_route53_record" "approach1-record-1" {
   zone_id = aws_route53_zone.zone-1.zone_id
-  name    = "live.approach1.net"
+  name    = "approach1.net"
   type    = "A"
   set_identifier = "live"
 
