@@ -14,6 +14,7 @@ resource "aws_autoscaling_group" "web_as_group" {
   launch_configuration = "${aws_launch_configuration.as_launch_config.id}"
   vpc_zone_identifier       = ["${aws_subnet.us-west-1b-public.id}","${aws_subnet.us-west-1c-public.id}"]
   min_size = 6
+  desired_capacity = 9
   max_size = 12
   load_balancers = ["${aws_elb.elb.name}"]
   health_check_type = "ELB"
