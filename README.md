@@ -2,10 +2,10 @@
 Launch a simple web site in a load balanced and highly available manner utilizing automation and AWS best practices
 
 We are using Terraform and Packer in below example 
-
+```
 https://www.terraform.io/
 https://www.packer.io/
-
+```
 cd s3
 ```
 terraform init
