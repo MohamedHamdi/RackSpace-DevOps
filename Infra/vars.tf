@@ -1,11 +1,11 @@
 variable "aws_access_key" {
-    default = "AKIA3Q56NSKEL7I6OEMH"
+    default = ""
 }
 variable "aws_secret_key" {
-    default = "cGlc2xwNjxtyW3VrDkEW/Dsa6Uzi6jx5iz28Lav5"
+    default = ""
 }
 variable "aws_key_name" {
-    default = "ec2accesskey"
+    default = "ec2accesskey" # After generating key pairs in AWS 
 }
 
 variable "aws_region" {
@@ -16,8 +16,8 @@ variable "aws_region" {
 variable "amis" {
     description = "AMIs by region"
     default = {
-        us-west-1 = "ami-09a1a3cfa46061826"
-        us-east-2 = "ami-04e70002c903255f5"
+        us-west-1 = "" # change to new one from Packer build process 
+        us-east-2 = "" # change to new one from Packer build process 
     }
 }
 
