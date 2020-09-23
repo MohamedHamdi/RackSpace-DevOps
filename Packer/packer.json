@@ -1,8 +1,8 @@
 {
   "variables": {
-    "aws_access_key": "AKIA3Q56NSKEL7I6OEMH",
-    "aws_secret_key": "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",
-    "aws_profile":"mohamed.hamdi",
+    "aws_access_key": "",
+    "aws_secret_key": "",
+    "aws_profile": "",
     "aws_region":"us-west-1"
   },
   "builders": [{
