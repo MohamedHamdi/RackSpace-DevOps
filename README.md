@@ -21,7 +21,7 @@ terraform apply
 
 cd Packer
 ```
-packer build packer.json # use ami values inside vars.tf
+packer build packer.json
 ```
 
 cd Infra 
